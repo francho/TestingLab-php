@@ -12,7 +12,7 @@
 -->
 
 <target name="build"
-   depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdoc,phpunit,phpcb"/>
+   depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpunit,phpcb"/>
  
  <target name="build-parallel"
    depends="prepare,lint,tools-parallel,phpunit,phpcb"/>
