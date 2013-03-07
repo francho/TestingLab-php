@@ -28,15 +28,17 @@ class TwitterParserTest extends \PHPUnit_Framework_TestCase
     {
     }
 
+    function mockTwitterJson() {
+        return file_get_contents(dirname(__FILE__).'/mock_twitter.json');
+    }
+
     /**
+     * @dataProvider mockTwitterJson
      * @covers Fch\Twitter\TwitterParser::parse
-     * @todo   Implement testParse().
      */
-    public function testParse()
+    public function testParse($json)
     {
-        // Remove the following lines when you implement this test.
-        $this->markTestIncomplete(
-          'This test has not been implemented yet.'
-        );
+        $actual = $this->object->parse($json);
+        $this->assertEquals(1, $actual->count());
     }
 }

@@ -42,6 +42,7 @@ class TweetCollectionTest extends \PHPUnit_Framework_TestCase
 
         $this->object->rewind();
         $this->assertEquals($expected, $this->object->current());
-
     }
+
+
 }

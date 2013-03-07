@@ -10,9 +10,25 @@ class DateUtilsTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers Fch\DateUtils::elapsedTime
      */
-    public function testElapsedTime()
+    public function testElapsedTimeDays()
     {
-        $twoDaysAgo = mktime(0, 0, 0, date("m")  , date("d")-2, date("Y"));
-        $this->assertEquals("hace 2 día(s)", DateUtils::elapsedTime($twoDaysAgo));
+        $date = new \DateTime();
+        $date->sub(date_interval_create_from_date_string('2 days'));
+
+        $this->assertEquals("hace 2 día(s)", DateUtils::elapsedTime($date->getTimestamp()));
     }
+
+    /**
+     * @covers Fch\DateUtils::elapsedTime
+     */
+    public function testElapsedTimeHours()
+    {
+        $date = new \DateTime();
+        $date->sub(date_interval_create_from_date_string('3 hours'));
+
+        $this->assertEquals("hace 3 hora(s)", DateUtils::elapsedTime($date->getTimestamp()));
+    }
+
+
+
 }

@@ -43,6 +43,12 @@ class TweetTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($expected, $actual);
     }
 
+    /**
+     * @expectedException \Fch\InvalidParameterException
+     */
+    public function testSetInvalidCreatedAtTimestampThrowsAnException() {
+        $this->object->setCreatedAtTimestamp('30/12/2012');
+    }
 
     /**
      * @covers Fch\Twitter\Tweet::setId
@@ -57,6 +63,11 @@ class TweetTest extends \PHPUnit_Framework_TestCase
     }
 
 
+    public function testSetInvalidIdThrowsAnException()
+    {
+        $this->setExpectedException('Fch\InvalidParameterException', 'Id must be numeric');
+        $this->object->setId('lorem ipsum');
+    }
 
     /**
      * @covers Fch\Twitter\Tweet::setText

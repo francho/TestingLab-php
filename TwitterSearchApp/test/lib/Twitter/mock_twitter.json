@@ -1,0 +1,278 @@
+{"completed_in":0.027, "max_id":309383183588278272, "max_id_str":"309383183588278272", "next_page":"?page=2&max_id=309383183588278272&q=agilearagon", "page":1, "query":"agilearagon", "refresh_url":"?since_id=309383183588278272&q=agilearagon", "results":[
+    {
+        "created_at":"Wed, 06 Mar 2013 19:21:13 +0000",
+        "from_user":"papajulio",
+        "from_user_id":131571558,
+        "from_user_id_str":"131571558",
+        "from_user_name":"Julio Garcia",
+        "geo":null,
+        "id":309383183588278272,
+        "id_str":"309383183588278272",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/830692969\/Foto_Frogtek_normal.jpg",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/830692969\/Foto_Frogtek_normal.jpg",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+        "text":"RT @milladigital: Este s\u00e1bado en @CIEMZaragoza, Testing Hacklab de @AgileAragon: Java,.Net,Python, Android,C++, Grails, PHP, RubyRor... http:\/\/t.co\/bdkhWL8WsY"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 19:16:55 +0000",
+        "from_user":"AgileAragon",
+        "from_user_id":816924564,
+        "from_user_id_str":"816924564",
+        "from_user_name":"AgileAragon",
+        "geo":null,
+        "id":309382099142578176,
+        "id_str":"309382099142578176",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+        "text":"Eeeehhhh!!! \u201c@agileCanarias: NOTICI\u00d3N - Chic@s hoy van a salir las entradas de la #AOS2013 estad atentos!!!\u201d",
+        "to_user":"agileCanarias",
+        "to_user_id":147640877,
+        "to_user_id_str":"147640877",
+        "to_user_name":"Agile Canarias",
+        "in_reply_to_status_id":309244987986558977,
+        "in_reply_to_status_id_str":"309244987986558977"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 19:16:52 +0000",
+        "from_user":"AgileAragon",
+        "from_user_id":816924564,
+        "from_user_id_str":"816924564",
+        "from_user_name":"AgileAragon",
+        "geo":null,
+        "id":309382087755038721,
+        "id_str":"309382087755038721",
+        "iso_language_code":"en",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+        "text":"RT @carlosble: This a call to spanish agile developers willing to abandom the Titanic: contact me if you are interested in working at eBay London or Berlin"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 18:41:33 +0000",
+        "from_user":"marcksunen",
+        "from_user_id":140508428,
+        "from_user_id_str":"140508428",
+        "from_user_name":"Marcos Su\u00f1en",
+        "geo":null,
+        "id":309373199248920576,
+        "id_str":"309373199248920576",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1223648994\/calico_normal.jpg",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1223648994\/calico_normal.jpg",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+        "text":"RT @milladigital: Este s\u00e1bado en @CIEMZaragoza, Testing Hacklab de @AgileAragon: Java,.Net,Python, Android,C++, Grails, PHP, RubyRor... http:\/\/t.co\/bdkhWL8WsY"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 15:28:23 +0000",
+        "from_user":"dani_latorre",
+        "from_user_id":15467231,
+        "from_user_id_str":"15467231",
+        "from_user_name":"Dani Latorre",
+        "geo":null,
+        "id":309324588758736896,
+        "id_str":"309324588758736896",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2966692347\/145c095cae69b4b0f4a836713e8c5696_normal.jpeg",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2966692347\/145c095cae69b4b0f4a836713e8c5696_normal.jpeg",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+        "text":"RT @milladigital: Este s\u00e1bado en @CIEMZaragoza, Testing Hacklab de @AgileAragon: Java,.Net,Python, Android,C++, Grails, PHP, RubyRor... http:\/\/t.co\/bdkhWL8WsY"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 15:24:50 +0000",
+        "from_user":"wizi_zaragoza",
+        "from_user_id":303895358,
+        "from_user_id_str":"303895358",
+        "from_user_name":"wizi_zaragoza",
+        "geo":null,
+        "id":309323696546385921,
+        "id_str":"309323696546385921",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1976451156\/Wizi_Twitter_thumbnail_normal.jpg",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1976451156\/Wizi_Twitter_thumbnail_normal.jpg",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+        "text":"RT @milladigital: Este s\u00e1bado en @CIEMZaragoza, Testing Hacklab de @AgileAragon: Java,.Net,Python, Android,C++, Grails, PHP, RubyRor... http:\/\/t.co\/bdkhWL8WsY"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 14:58:42 +0000",
+        "from_user":"CIEMZaragoza",
+        "from_user_id":285123026,
+        "from_user_id_str":"285123026",
+        "from_user_name":"CIEMZaragoza",
+        "geo":null,
+        "id":309317119428931585,
+        "id_str":"309317119428931585",
+        "iso_language_code":"de",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2720533301\/400a2478897e3c43ea7ab056be5e646a_normal.png",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2720533301\/400a2478897e3c43ea7ab056be5e646a_normal.png",
+        "source":"&lt;a href=&quot;http:\/\/www.tweetdeck.com&quot;&gt;TweetDeck&lt;\/a&gt;",
+        "text":"RT @XayOn: Testing Hacklab en marzo | AgileAragon - http:\/\/t.co\/iPeLuL6ofJ"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 14:51:18 +0000",
+        "from_user":"XayOn",
+        "from_user_id":11290522,
+        "from_user_id_str":"11290522",
+        "from_user_name":"XayOn",
+        "geo":null,
+        "id":309315258101678080,
+        "id_str":"309315258101678080",
+        "iso_language_code":"de",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1247920468\/41493_1301687670_8865_q_normal_normal.jpg",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1247920468\/41493_1301687670_8865_q_normal_normal.jpg",
+        "source":"&lt;a href=&quot;http:\/\/karmacracy.com&quot;&gt;Karmacracy&lt;\/a&gt;",
+        "text":"Testing Hacklab en marzo | AgileAragon - http:\/\/t.co\/iPeLuL6ofJ"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 14:50:35 +0000",
+        "from_user":"scalabble",
+        "from_user_id":175677952,
+        "from_user_id_str":"175677952",
+        "from_user_name":"scalabBle",
+        "geo":null,
+        "id":309315075037093888,
+        "id_str":"309315075037093888",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1230243438\/dos_normal.PNG",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1230243438\/dos_normal.PNG",
+        "source":"&lt;a href=&quot;http:\/\/www.tweetdeck.com&quot;&gt;TweetDeck&lt;\/a&gt;",
+        "text":"RT @milladigital: Este s\u00e1bado en @CIEMZaragoza, Testing Hacklab de @AgileAragon: Java,.Net,Python, Android,C++, Grails, PHP, RubyRor... http:\/\/t.co\/bdkhWL8WsY"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 14:49:37 +0000",
+        "from_user":"bambino",
+        "from_user_id":2960351,
+        "from_user_id_str":"2960351",
+        "from_user_name":"Fernando Tom\u00e1s",
+        "geo":null,
+        "id":309314833638117377,
+        "id_str":"309314833638117377",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1659493646\/image_normal.jpg",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1659493646\/image_normal.jpg",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+        "text":"RT @milladigital: Este s\u00e1bado en @CIEMZaragoza, Testing Hacklab de @AgileAragon: Java,.Net,Python, Android,C++, Grails, PHP, RubyRor... http:\/\/t.co\/bdkhWL8WsY"
+    },
+    {
+        "created_at":"Wed, 06 Mar 2013 14:45:04 +0000",
+        "from_user":"milladigital",
+        "from_user_id":245853481,
+        "from_user_id_str":"245853481",
+        "from_user_name":"Milla Digital",
+        "geo":null,
+        "id":309313687582298112,
+        "id_str":"309313687582298112",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/1234489332\/milla_twitter_normal.jpg",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/1234489332\/milla_twitter_normal.jpg",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/&quot;&gt;web&lt;\/a&gt;",
+        "text":"Este s\u00e1bado en @CIEMZaragoza, Testing Hacklab de @AgileAragon: Java,.Net,Python, Android,C++, Grails, PHP, RubyRor... http:\/\/t.co\/bdkhWL8WsY"
+    },
+    {
+        "created_at":"Tue, 05 Mar 2013 08:05:15 +0000",
+        "from_user":"AgileAragon",
+        "from_user_id":816924564,
+        "from_user_id_str":"816924564",
+        "from_user_name":"AgileAragon",
+        "geo":null,
+        "id":308850683220742144,
+        "id_str":"308850683220742144",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+        "text":"RT @ydarias: Estamos buscando patrocinadores para el #AOS2013 \u00bfte interesa? - http:\/\/t.co\/QRrLXt52ef"
+    },
+    {
+        "created_at":"Mon, 04 Mar 2013 18:36:23 +0000",
+        "from_user":"AgileAragon",
+        "from_user_id":816924564,
+        "from_user_id_str":"816924564",
+        "from_user_name":"AgileAragon",
+        "geo":null,
+        "id":308647124436934656,
+        "id_str":"308647124436934656",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+        "text":"RT @leptom: Marcado en la agenda el testing hacklab de @AgileAragon del 9 de marzo. Ahora a cuadrar la agenda..."
+    },
+    {
+        "created_at":"Mon, 04 Mar 2013 18:36:08 +0000",
+        "from_user":"AgileAragon",
+        "from_user_id":816924564,
+        "from_user_id_str":"816924564",
+        "from_user_name":"AgileAragon",
+        "geo":null,
+        "id":308647063372038144,
+        "id_str":"308647063372038144",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/2934695399\/97e2b40672f3fbb7e5163d74e599ea3f_normal.png",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/iphone&quot;&gt;Twitter for iPhone&lt;\/a&gt;",
+        "text":"RT @francho_lab: Sabes que en PHP tambi\u00e9n se puede hacer TDD? Si vienes al Testing Hacklab de @AgileAragon te contar\u00e9 como lo hago yo http:\/\/t.co\/BttJUI6K4L"
+    },
+    {
+        "created_at":"Fri, 01 Mar 2013 14:11:13 +0000",
+        "from_user":"papajulio",
+        "from_user_id":131571558,
+        "from_user_id_str":"131571558",
+        "from_user_name":"Julio Garcia",
+        "geo":null,
+        "id":307493229396381696,
+        "id_str":"307493229396381696",
+        "iso_language_code":"es",
+        "metadata":{
+            "result_type":"recent"
+        },
+        "profile_image_url":"http:\/\/a0.twimg.com\/profile_images\/830692969\/Foto_Frogtek_normal.jpg",
+        "profile_image_url_https":"https:\/\/si0.twimg.com\/profile_images\/830692969\/Foto_Frogtek_normal.jpg",
+        "source":"&lt;a href=&quot;http:\/\/twitter.com\/download\/android&quot;&gt;Twitter for Android&lt;\/a&gt;",
+        "text":"RT @francho_lab: Sabes que en PHP tambi\u00e9n se puede hacer TDD? Si vienes al Testing Hacklab de @AgileAragon te contar\u00e9 como lo hago yo http:\/\/t.co\/BttJUI6K4L"
+    }
+], "results_per_page":15, "since_id":0, "since_id_str":"0"}
