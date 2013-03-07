@@ -15,7 +15,10 @@ class DateUtilsTest extends \PHPUnit_Framework_TestCase
         $date = new \DateTime();
         $date->sub(date_interval_create_from_date_string('2 days'));
 
-        $this->assertEquals("hace 2 día(s)", DateUtils::elapsedTime($date->getTimestamp()));
+        $this->assertEquals(
+            "hace 2 día(s)",
+            DateUtils::elapsedTime($date->getTimestamp())
+        );
     }
 
     /**
@@ -26,7 +29,10 @@ class DateUtilsTest extends \PHPUnit_Framework_TestCase
         $date = new \DateTime();
         $date->sub(date_interval_create_from_date_string('3 hours'));
 
-        $this->assertEquals("hace 3 hora(s)", DateUtils::elapsedTime($date->getTimestamp()));
+        $this->assertEquals(
+            "hace 3 hora(s)",
+            DateUtils::elapsedTime($date->getTimestamp())
+        );
     }
 
 

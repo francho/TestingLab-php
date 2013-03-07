@@ -29,14 +29,16 @@ class TwitterParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Por cada elemento del array devuelto se llamará una vez al test que lo ha invocado pasándoselo como argumento
+     * Por cada elemento del array devuelto se llamará una vez al test que
+     * lo ha invocado pasándoselo como argumento
      *
-     * @return array[array] con la colección de datos a probar (en este caso solo uno).
+     * @return array[array] con la colección de datos a probar.
      *
      */
     public function mockTwitterJson()
     {
-        return array(array(file_get_contents(dirname(__FILE__) . '/mock_twitter.json')));
+        $json = file_get_contents(dirname(__FILE__) . '/mock_twitter.json');
+        return array(array($json));
     }
 
     /**
