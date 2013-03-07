@@ -57,7 +57,7 @@
     <modified />
    </fileset>
 
-   <fileset dir="${basedir}/tests">
+   <fileset dir="${basedir}/test">
     <include name="**/*.php" />
     <modified />
    </fileset>
@@ -140,7 +140,7 @@
  <target name="phpunit" description="Run unit tests with PHPUnit">
   <exec executable="phpunit" failonerror="true">
   	<arg value="--configuration" />
-  	<arg value="tests/phpunit.xml" />
+  	<arg value="test/phpunit.xml" />
   </exec>
  
  </target>
