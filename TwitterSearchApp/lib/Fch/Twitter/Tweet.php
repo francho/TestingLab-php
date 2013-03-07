@@ -10,7 +10,7 @@ use Fch\InvalidParameterException;
 
 class Tweet
 {
-    private $_id;
+    private $_tweetId;
     private $_createdAtTimestamp;
     private $_text;
 
@@ -28,17 +28,17 @@ class Tweet
         return $this->_createdAtTimestamp;
     }
 
-    public function setId($id)
+    public function setTweetId($tweetId)
     {
-        if (!is_numeric($id)) {
-            throw new InvalidParameterException('Id must be numeric');
+        if (!is_numeric($tweetId)) {
+            throw new InvalidParameterException('tweetId must be numeric');
         }
-        $this->_id = $id;
+        $this->_tweetId = $tweetId;
     }
 
-    public function getId()
+    public function getTweetId()
     {
-        return $this->_id;
+        return $this->_tweetId;
     }
 
     public function setText($text)

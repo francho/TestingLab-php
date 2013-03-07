@@ -51,7 +51,7 @@ class TwitterParserTest extends \PHPUnit_Framework_TestCase
         $actual->rewind();
         $fistTweet = $actual->current();
 
-        $this->assertEquals(309383183588278272, $fistTweet->getId());
+        $this->assertEquals(309383183588278272, $fistTweet->getTweetId());
         $this->assertEquals(
             'RT @milladigital: Este sábado en @CIEMZaragoza, Testing Hacklab de @AgileAragon: Java,.Net,Python, Android,C++, Grails, PHP, RubyRor... http://t.co/bdkhWL8WsY',
             $fistTweet->getText()

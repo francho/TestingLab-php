@@ -45,7 +45,7 @@ class TwitterParser
 
         foreach ($json['results'] as $result) {
             $tweet = new Tweet();
-            $tweet->setId($result['id']);
+            $tweet->setTweetId($result['id']);
             $tweet->setText($result['text']);
             $tweet->setCreatedAtTimestamp(strtotime($result['created_at']));
             $collection->append($tweet);

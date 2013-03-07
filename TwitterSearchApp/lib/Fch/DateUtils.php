@@ -16,14 +16,13 @@ class DateUtils
      */
     static function elapsedTime($timestamp)
     {
-        $date1 = new \DateTime("now");
-        $date2 = new \DateTime(date("c", $timestamp));
+        $now = new \DateTime("now");
 
-        $interval = $date1->diff($date2);
+        $interval = $now->diff(new \DateTime(date("c", $timestamp)));
 
         $days = $interval->d;
         $hours = $interval->h;
-        $mins = $interval->i;
+        $minutes = $interval->i;
         $secs = $interval->s;
 
         if ($days != 0) {
@@ -31,7 +30,8 @@ class DateUtils
         } else if ($hours != 0) {
             $ago = 'hace ' . $hours . ' hora(s)';
         } else {
-            $ago = 'hace ' . ($mins != 0 ? $mins . ' min(s) ' : $secs . ' seg(s)');
+            $ago = 'hace ';
+            $ago.= ($minutes != 0 ? $minutes . ' min(s) ' : $secs . ' seg(s)');
         }
         return $ago;
     }

@@ -53,14 +53,14 @@ class TweetTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers Fch\Twitter\Tweet::setId
-     * @covers Fch\Twitter\Tweet::getId
+     * @covers Fch\Twitter\Tweet::setTweetId
+     * @covers Fch\Twitter\Tweet::getTweetId
      */
     public function testSetGetId()
     {
         $expected = 127828128054779904;
-        $this->object->setId($expected);
-        $actual = $this->object->getId();
+        $this->object->setTweetId($expected);
+        $actual = $this->object->getTweetId();
         $this->assertEquals($expected, $actual);
     }
 
@@ -68,7 +68,7 @@ class TweetTest extends \PHPUnit_Framework_TestCase
     public function testSetInvalidIdThrowsAnException()
     {
         $this->setExpectedException('Fch\InvalidParameterException', 'Id must be numeric');
-        $this->object->setId('lorem ipsum');
+        $this->object->setTweetId('lorem ipsum');
     }
 
     /**
