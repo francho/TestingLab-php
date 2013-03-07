@@ -15,3 +15,6 @@ http://jenkins-ci.org/
 
 Esqueleto jenkins para proyectos php
 http://jenkins-php.org/
+
+Servidor de integración continua online
+http://travis-ci.org
