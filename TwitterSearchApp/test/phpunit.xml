@@ -1,16 +1,13 @@
-<phpunit bootstrap="./bootstrap.php">
+<phpunit
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        syntaxCheck="true"
+        bootstrap="./bootstrap.php">
 
     <testsuite name="Library Test Suite">
-        <directory>./lib</directory>
+        <directory suffix="Test.php">./lib</directory>
     </testsuite>
-
-    <filter>
-        <whitelist>
-            <exclude>
-                <directory suffix=".php">/usr/share/php</directory>
-            </exclude>
-        </whitelist>
-    </filter>
 
     <logging>
         <log type="coverage-html" target="../build/coverage" title="Testing Lab Coverage"

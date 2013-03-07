@@ -30,6 +30,11 @@ class TweetCollectionTest extends \PHPUnit_Framework_TestCase
     {
     }
 
+    public function testEmptyCollection()
+    {
+        $this->assertEquals(0, $this->object->count());
+    }
+
     /**
      * @covers Fch\Twitter\TweetCollection::append
      */

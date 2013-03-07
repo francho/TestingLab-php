@@ -37,8 +37,20 @@ class TwitterParser
      * @param $jsonResponse
      * @return \Fch\Twitter\TweetCollection
      */
-    public function parse($jsonResponse) {
+    public function parse($jsonResponse)
+    {
         $collection = new \Fch\Twitter\TweetCollection();
+
+        $json = json_decode($jsonResponse, true);
+
+        foreach ($json['results'] as $result) {
+            $tweet = new Tweet();
+            $tweet->setId($result['id']);
+            $tweet->setText($result['text']);
+            $tweet->setCreatedAtTimestamp(strtotime($result['created_at']));
+            $collection->append($tweet);
+        }
+
         return $collection;
     }
 }

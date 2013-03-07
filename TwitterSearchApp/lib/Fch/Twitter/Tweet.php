@@ -17,7 +17,7 @@ class Tweet
 
     public function setCreatedAtTimestamp($createdAtTimestamp)
     {
-        if(!is_numeric($createdAtTimestamp)) {
+        if (!is_numeric($createdAtTimestamp)) {
             throw new InvalidParameterException('timestamp expected');
         }
         $this->_createdAtTimestamp = $createdAtTimestamp;
@@ -30,7 +30,7 @@ class Tweet
 
     public function setId($id)
     {
-        if(!is_numeric($id)) {
+        if (!is_numeric($id)) {
             throw new InvalidParameterException('Id must be numeric');
         }
         $this->_id = $id;

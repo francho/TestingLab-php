@@ -28,8 +28,15 @@ class TwitterParserTest extends \PHPUnit_Framework_TestCase
     {
     }
 
-    function mockTwitterJson() {
-        return file_get_contents(dirname(__FILE__).'/mock_twitter.json');
+    /**
+     * Por cada elemento del array devuelto se llamará una vez al test que lo ha invocado pasándoselo como argumento
+     *
+     * @return array[array] con la colección de datos a probar (en este caso solo uno).
+     *
+     */
+    public function mockTwitterJson()
+    {
+        return array(array(file_get_contents(dirname(__FILE__) . '/mock_twitter.json')));
     }
 
     /**
@@ -39,6 +46,18 @@ class TwitterParserTest extends \PHPUnit_Framework_TestCase
     public function testParse($json)
     {
         $actual = $this->object->parse($json);
-        $this->assertEquals(1, $actual->count());
+        $this->assertEquals(15, $actual->count());
+
+        $actual->rewind();
+        $fistTweet = $actual->current();
+
+        $this->assertEquals(309383183588278272, $fistTweet->getId());
+        $this->assertEquals(
+            'RT @milladigital: Este sábado en @CIEMZaragoza, Testing Hacklab de @AgileAragon: Java,.Net,Python, Android,C++, Grails, PHP, RubyRor... http://t.co/bdkhWL8WsY',
+            $fistTweet->getText()
+        );
+        $this->assertEquals(1362597673, $fistTweet->getCreatedAtTimestamp());
+
+
     }
 }
