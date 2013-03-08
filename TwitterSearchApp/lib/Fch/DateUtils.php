@@ -31,7 +31,7 @@ class DateUtils
             $ago = 'hace ' . $hours . ' hora(s)';
         } else {
             $ago = 'hace ';
-            $ago.= ($minutes != 0 ? $minutes . ' min(s) ' : $secs . ' seg(s)');
+            $ago .= ($minutes != 0 ? $minutes . ' min(s) ' : $secs . ' seg(s)');
         }
         return $ago;
     }

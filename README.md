@@ -18,3 +18,6 @@ http://jenkins-php.org/
 
 Servidor de integración continua online
 http://travis-ci.org
+
+Este proyecto testeado por Travis (ver fichero .travis.yml)
+https://travis-ci.org/francho/TestingLab-php
