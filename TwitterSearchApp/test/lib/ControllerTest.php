@@ -34,9 +34,9 @@ class ControllerTest extends \PHPUnit_Framework_TestCase
      */
     public function testIndexActionHasTitle()
     {
-        $this->object->indexAction();
 
         $this->expectOutputRegex('#<h1>Twitter Search</h1>#');
+        $this->object->indexAction();
 
     }
 }
