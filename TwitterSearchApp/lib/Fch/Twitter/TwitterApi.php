@@ -28,10 +28,10 @@ class TwitterApi
      */
     private static function _getJson($url)
     {
-        $ch = curl_init($url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        $output = curl_exec($ch);
-        curl_close($ch);
+        $resource = curl_init($url);
+        curl_setopt($resource, CURLOPT_RETURNTRANSFER, 1);
+        $output = curl_exec($resource);
+        curl_close($resource);
 
         return $output;
     }
