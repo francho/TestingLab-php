@@ -13,7 +13,7 @@ class Tweet
     private $_tweetId;
     private $_createdAtTimestamp;
     private $_text;
-    private $_author;
+    private $_userName;
 
 
     public function setCreatedAtTimestamp($createdAtTimestamp)
@@ -58,12 +58,12 @@ class Tweet
         return \Fch\DateUtils::elapsedTime($this->_createdAtTimestamp);
     }
 
-    public function setAuthor($author) {
-        $this->_author = $author;
+    public function setUserName($author) {
+        $this->_userName = $author;
     }
 
-    public function getAuthor()
+    public function getUserName()
     {
-        return $this->_author;
+        return $this->_userName;
     }
 }

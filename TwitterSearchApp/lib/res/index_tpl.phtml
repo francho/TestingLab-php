@@ -25,7 +25,8 @@
                     /* @var $tweet \Fch\Twitter\Tweet */
                     printf('<div class="alert" id="tweet%s">', $tweet->getTweetId());
                     printf('<h3>%s</h3>', $tweet->getText());
-                    printf('<p>%s</p>', $tweet->getElapsedTime());
+                    printf('<p>%s %s</p>', $tweet->getUserName(), $tweet->getElapsedTime());
+
                     printf('</div>');
                 }
             }

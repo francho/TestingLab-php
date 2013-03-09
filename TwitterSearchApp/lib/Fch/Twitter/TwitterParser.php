@@ -48,7 +48,7 @@ class TwitterParser
             $tweet->setTweetId($result['id']);
             $tweet->setText($result['text']);
             $tweet->setCreatedAtTimestamp(strtotime($result['created_at']));
-            $tweet->setAuthor($result['from_user_name']);
+            $tweet->setUserName($result['from_user_name']);
             $collection->append($tweet);
         }
 

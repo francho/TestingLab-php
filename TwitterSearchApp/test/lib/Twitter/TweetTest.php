@@ -100,8 +100,8 @@ class TweetTest extends \PHPUnit_Framework_TestCase
 
     public function testGetSetAuthor() {
         $expected = 'Francho';
-        $this->object->setAuthor($expected);
-        $actual = $this->object->getAuthor();
+        $this->object->setUserName($expected);
+        $actual = $this->object->getUserName();
 
         $this->assertEquals($expected,$actual);
     }

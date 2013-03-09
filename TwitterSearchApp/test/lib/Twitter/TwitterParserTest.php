@@ -60,7 +60,7 @@ class TwitterParserTest extends \PHPUnit_Framework_TestCase
         );
         $this->assertEquals(1362597673, $fistTweet->getCreatedAtTimestamp());
 
-        $this->assertEquals("Julio Garcia", $fistTweet->getAuthor());
+        $this->assertEquals("Julio Garcia", $fistTweet->getUserName());
 
     }
 }

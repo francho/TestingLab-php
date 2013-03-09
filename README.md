@@ -14,6 +14,12 @@ usaremos también el generador de esqueletos de test
 
 phpunit-skelgen
 
+Xdebug
+------
+Imprescindible... olvidate de los "var_dump($var)" ;)
+
+http://xdebug.org/
+
 PHP Lint
 --------
 Comprueba la sintaxis de nuestro código
