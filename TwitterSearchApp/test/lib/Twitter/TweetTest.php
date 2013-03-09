@@ -97,4 +97,12 @@ class TweetTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals("hace 2 día(s)", $actual);
     }
+
+    public function testGetSetAuthor() {
+        $expected = 'Francho';
+        $this->object->setAuthor($expected);
+        $actual = $this->object->getAuthor();
+
+        $this->assertEquals($expected,$actual);
+    }
 }
