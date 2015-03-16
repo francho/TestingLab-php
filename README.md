@@ -2,6 +2,8 @@ testinglab-php
 ==============
 Ejemplos y material para el testing hacklab de AgileAragon http://agile-aragon.org/2013/02/25/testing-hacklab-en-marzo/
 
+[![Build Status](https://travis-ci.org/francho/TestingLab-php.svg?branch=master)](https://travis-ci.org/francho/TestingLab-php)
+
 Algunas herramientas que vamos a utilizar:
 
 PHPUnit
