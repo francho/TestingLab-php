@@ -6,7 +6,7 @@ php:
 script: 
   - phpunit --configuration TwitterSearchApp/test/phpunit.xml
   - phpcs --standard=psr2 ./TwitterSearchApp
-  - ./vendor/bin/phpmd TwitterSearchApp/ text
+  - ./vendor/bin/phpmd TwitterSearchApp/ text codesize,unusedcode,naming,phpmd.xml
 
 # Commands to be run before your environment runs.
 before_script:
