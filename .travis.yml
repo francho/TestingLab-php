@@ -10,6 +10,6 @@ before_script:
 
 script: 
   - phpunit --configuration TwitterSearchApp/test/phpunit.xml
-  - ./vendor/bin/phpcs --standard=generic ./TwitterSearchApp
+  - ./vendor/bin/phpcs --standard=psr2 ./TwitterSearchApp
   - ./vendor/bin/phpmd TwitterSearchApp/ text codesize,unusedcode,naming,phpmd.xml
 
